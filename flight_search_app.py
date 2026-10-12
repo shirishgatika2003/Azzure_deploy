@@ -15,7 +15,7 @@ from pymongo import MongoClient
 
 client = MongoClient(MONGO_URI)
 
-db = client["flight_clstr"]
+db = client["flight_app"]
 
 airports_collection = db["airports"]
 searches_collection = db["searches"]
